@@ -1,0 +1,2 @@
+A version of this package including sources for bundled binaries (if any) can
+always be downloaded from http://sourceforge.net/projects/splitzen

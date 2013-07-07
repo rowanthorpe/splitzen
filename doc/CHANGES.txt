@@ -1,0 +1,43 @@
+early-2010 splitzen versions 0.1 - 0.4
+
+    First cruddy versions...
+
+2010-06-15 splitzen 0.5
+
+    Wrote batch files for head and tail functions (removes dependency on related GnuWin32 binaries) 
+
+2010-06-25 splitzen 0.5.1
+
+    Improved licensing and changes information.
+
+2010-06-28 splitzen 0.5.2
+
+    Added libiconv2 for those Windows systems that don't seem to provide the appropriate functionality
+
+2010-07-04 splitzen 0.6.0
+
+    Massive overhaul of entire package. Effectively a rewrite.
+
+2010-07-07 splitzen 0.6.1
+
+    Small file naming change.
+    Included image and installer sources in source package
+
+2010-07-08 splitzen 0.6.2
+
+    [splitzen.cmd]
+      Fixed trivial file missing error
+
+    [splitzen-install.iss]
+      General fixups
+      Changed default install directory name
+      Added an error message for Windows versions prior to NT
+      Added Desktop icons
+
+2011-08-08 splitzen 0.6.3
+
+    [all]
+	  Fixed incorrect license info in some files
+
+	[splitzen.cmd]
+	  Added show-source functionality

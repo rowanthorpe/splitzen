@@ -1,0 +1,21 @@
+TODO:
+=====
+
+In splitzen.cmd
+
+* Fix strange bug which stops interactive file-naming in "join"
+* Sanity checks for config
+* Allow to specify in which directory to save created file(s)
+* Add --join flag to force joining regardless of prefix heuristic
+* Allow joining without setting the prefix correctly, by allowing drag-n-drop of checksum-file, and reading prefixes from the checksum-file
+
+In head.cmd and tail.cmd
+
+* Check deleting trailing blank lines problem (Fix=insert character,trim on output?)
+* Remove need for temp file when using "-n +x"
+
+General:
+
+* Use batchscripting for as much as possible, remove as many Unixish-tool dependencies as possible
+    - I managed to write an Adler32 and Fletcher32 checksum in batchscript, but both were prohibitively slow... (any better suggestions?)
+* Remember never to go through the painful, disordered, futile hell of writing a Windoze batch-script again. Stick to Bash and Perl scripts, fool...
