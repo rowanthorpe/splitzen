@@ -1,43 +1,71 @@
-early-2010 splitzen versions 0.1 - 0.4
+2013-07-07  Rowan Thorpe  <rowan@rowanthorpe.com>
 
-    First cruddy versions...
+	* Patch-version bump (v0.6.4)
 
-2010-06-15 splitzen 0.5
+	* migrate to github
 
-    Wrote batch files for head and tail functions (removes dependency on related GnuWin32 binaries) 
+	* numerous small layout-bug fixes
 
-2010-06-25 splitzen 0.5.1
+	* update copyright notices
 
-    Improved licensing and changes information.
+	* splitzen-install.iss: add installer source
 
-2010-06-28 splitzen 0.5.2
+	* splitzen-icon.ico, splitzen-icon.xcf: add screenshot image
 
-    Added libiconv2 for those Windows systems that don't seem to provide the appropriate functionality
+2011-08-08  Rowan Thorpe  <rowan@rowanthorpe.com>
 
-2010-07-04 splitzen 0.6.0
+	* Patch-version bump (v0.6.3)
 
-    Massive overhaul of entire package. Effectively a rewrite.
+	* fix incorrect license info in some files.
 
-2010-07-07 splitzen 0.6.1
+	* splitzen.cmd: add show-source functionality.
 
-    Small file naming change.
-    Included image and installer sources in source package
+2010-07-08  Rowan Thorpe  <rowan@rowanthorpe.com>
 
-2010-07-08 splitzen 0.6.2
+	* Patch-version bump (v0.6.2)
 
-    [splitzen.cmd]
-      Fixed trivial file missing error
+	* splitzen.cmd: Fix trivial file missing error.
 
-    [splitzen-install.iss]
-      General fixups
-      Changed default install directory name
-      Added an error message for Windows versions prior to NT
-      Added Desktop icons
+	* splitzen-install.iss: general fixups.
 
-2011-08-08 splitzen 0.6.3
+	* splitzen-install.iss: change default install directory name.
 
-    [all]
-	  Fixed incorrect license info in some files
+	* splitzen-install.iss: add an error message for Windows versions prior to NT.
 
-	[splitzen.cmd]
-	  Added show-source functionality
+	* splitzen-install.iss: add desktop icons.
+
+2010-07-07  Rowan Thorpe  <rowan@rowanthorpe.com>
+
+	* Patch-version bump (v0.6.1)
+
+	* small file naming change.
+
+	* include image and installer sources in source package
+
+2010-07-04  Rowan Thorpe  <rowan@rowanthorpe.com>
+
+	* Minor-version bump (v0.6.0)
+
+	* massive overhaul of entire package - effectively a rewrite.
+
+2010-06-28  Rowan Thorpe  <rowan@rowanthorpe.com>
+
+	* Patch-version bump (v0.5.2)
+
+	* add libiconv2 for those Windows systems that don't seem to provide the appropriate functionality.
+
+2010-06-25  Rowan Thorpe  <rowan@rowanthorpe.com>
+
+	* Patch-version bump (v0.5.1)
+
+	* improve licensing and changes information.
+
+2010-06-15  Rowan Thorpe  <rowan@rowanthorpe.com>
+
+	* Minor-version bump (v0.5.0)
+
+	* add batch files for head and tail functions (removes dependency on related GnuWin32 binaries).
+
+early-2010  Rowan Thorpe  <rowan@rowanthorpe.com>
+
+	* first cruddy versions (v0.1.0 - v0.4.0)...

@@ -1,2 +1,4 @@
-A version of this package including sources for bundled binaries (if any) can
-always be downloaded from http://sourceforge.net/projects/splitzen
+A source version of this package can always be downloaded from
+ http://github.com/rowanthorpe/splitzen
+Source for the bundled tools (if bundled) can always be downloaded from
+ http://sourceforge.net/projecst/gnuwin32

@@ -1,12 +1,12 @@
 @echo off
 
-rem tail.cmd: Version 0.2
+rem tail.cmd: minimal "tail" command in Windows batch script
 rem  part of Splitzen package (see below)
 rem
 rem Splitzen: Drag-n-Drop splitting and rejoining
 rem           for files, with checksum integrity checking
 rem
-rem  (c) Copyright 2010 Rowan Thorpe <rowan _at_ rowanthorpe [dot] com>
+rem  (c) Copyright 2010-2011,2013 Rowan Thorpe <rowan _at_ rowanthorpe [dot] com>
 rem
 rem    This program is free software: you can redistribute it and/or modify
 rem    it under the terms of the GNU Affero General Public License as published by
